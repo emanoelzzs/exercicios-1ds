@@ -26,12 +26,6 @@ Desenvolver um programa que:
         - “Meta alcançada!” se atingiu a quantidade planejada.
         - “Meta não alcançada.” caso contrário.
 
-O programa deve usar:
-
-- **`while`** para o controle de produção.
-- **`do...while`** para confirmar se o usuário quer continuar simulando outro turno.
-- **`for`** para exibir um resumo dos dias de produção anteriores (simulado com contador interno).
-
 ---
 
 ## 🧠 Regras Técnicas
@@ -46,6 +40,9 @@ O programa deve usar:
 ## 🧩 Exemplo de Execução
 
 ```
+=== Sistema de Controle de Produção ===
+
+--- Novo Turno ---
 Quantas peças devem ser produzidas no turno? 5
 Peça 1 produzida com sucesso.
 Peça 2 produzida com sucesso.
@@ -54,19 +51,22 @@ Peça 4 produzida com sucesso.
 Peça 5 produzida com sucesso.
 Meta alcançada!
 
-Deseja simular outro turno? (S/N) S
+Deseja simular outro turno? (S/N) s
 
+--- Novo Turno ---
 Quantas peças devem ser produzidas no turno? 3
 Peça 1 produzida com sucesso.
 Peça 2 produzida com sucesso.
 Peça 3 produzida com sucesso.
 Meta alcançada!
 
+Deseja simular outro turno? (S/N) n
+
 Resumo dos dias anteriores:
 Dia 1: 5 peças produzidas
 Dia 2: 3 peças produzidas
+Total geral: 8 peças
 
-Deseja simular outro turno? (S/N) N
 Encerrando sistema de produção...
 
 ```
