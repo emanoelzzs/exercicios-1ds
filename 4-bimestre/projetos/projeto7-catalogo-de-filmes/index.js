@@ -1,16 +1,18 @@
 // CRIE UMA LÓGICA ABAIXO
-const prompt = require("prompt-sync")();
+//const prompt = require("prompt-sync")();
 
-let filme1 = { titulo: "" , genero: "" , ano: 0 , avaliacao: 0 ,}
-let filme2 = { titulo: "" , genero: "" , ano: 0 , avaliacao: 0 ,}
-let filme3 = { titulo: "" , genero: "" , ano: 0 , avaliacao: 0 ,}
-let filme4 = { titulo: "" , genero: "" , ano: 0 , avaliacao: 0 ,}
-let filme5 = { titulo: "" , genero: "" , ano: 0 , avaliacao: 0 ,}
-let filme6 = { titulo: "" , genero: "" , ano: 0 , avaliacao: 0 ,}
-let filme7 = { titulo: "" , genero: "" , ano: 0 , avaliacao: 0 ,}
-let filme8 = { titulo: "" , genero: "" , ano: 0 , avaliacao: 0 ,}
-let filme9 = { titulo: "" , genero: "" , ano: 0 , avaliacao: 0 ,}
-let filme10 = { titulo: "" , genero: "" , ano: 0 , avaliacao: 0 ,}
+let filme1 = { titulo: "O Poderoso Chefão", genero: "Crime / Drama", ano: 1972, avaliacao: 9 }
+let filme2 = { titulo: "Interestelar", genero: "Ficção Científica / Drama", ano: 2014, avaliacao: 9 }
+let filme3 = { titulo: "A Origem", genero: "Ação / Ficção Científica", ano: 2010, avaliacao: 9 }
+let filme4 = { titulo: "Forrest Gump", genero: "Drama / Romance", ano: 1994, avaliacao: 9 }
+let filme5 = { titulo: "O Senhor dos Anéis: O Retorno do Rei", genero: "Aventura / Fantasia", ano: 2003, avaliacao: 9 }
+let filme6 = { titulo: "Coringa", genero: "Drama / Thriller", ano: 2019, avaliacao: 8 }
+let filme7 = { titulo: "Matrix", genero: "Ação / Ficção Científica", ano: 1999, avaliacao: 9 }
+let filme8 = { titulo: "Vingadores: Ultimato", genero: "Ação / Aventura", ano: 2019, avaliacao: 8 }
+let filme9 = { titulo: "Clube da Luta", genero: "Drama / Suspense", ano: 1999, avaliacao: 9 }
+let filme10 = { titulo: "O Rei Leão", genero: "Animação / Aventura", ano: 1994, avaliacao: 9 }
+
+
 
 const filme = {
   1: filme1,
@@ -24,12 +26,12 @@ const filme = {
   9: filme9,
   10: filme10,
 }
-for(let i = 1; i <= 10; i++){
-    filme[i].titulo = prompt(`Qual o nome do filme${i}?`)
-    filme[i].genero = prompt(`Qual o gênero do filme${i}?`)
-    filme[i].ano = parseInt(prompt(`Qual o ano de lançamento do filme${i}?`))
-    filme[i].avaliacao = parseFloat(prompt(`Qual a avaliação do filme${i}? 0 a 10`))
-}
+// for(let i = 1; i <= 10; i++){
+//     filme[i].titulo = prompt(`Qual o nome do filme${i}?`)
+//     filme[i].genero = prompt(`Qual o gênero do filme${i}?`)
+//     filme[i].ano = parseInt(prompt(`Qual o ano de lançamento do filme${i}?`))
+//     filme[i].avaliacao = parseFloat(prompt(`Qual a avaliação do filme${i}? 0 a 10`))
+// }
 console.log("=== Catálogo de Filmes ===")
 for(let i = 1; i <= 10; i++){
    
